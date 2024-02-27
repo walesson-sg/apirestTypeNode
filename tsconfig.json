@@ -6,6 +6,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
+    "outDir": "./build", //arquivos JS serão armazenados nessa pasta
+    "rootDir": "./src", //os arquivos JS serão lidos a partir desta pasta
     "lib": [
       "dom",
       "es2015.promise",
